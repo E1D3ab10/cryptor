@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-from encrypt import MessageEncrypter
+from src.message_encryptor import MessageEncrypter
 
 bot = telebot.TeleBot("6912342529:AAG4G05ojSErXM2Sa9Fez__KIsoQXkNzkB8")
 
