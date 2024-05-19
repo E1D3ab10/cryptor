@@ -1,4 +1,5 @@
 import itertools
+
 from src.abstract_encryptor import AbstractEncrypter
 from src.const_int import ConstInt
 

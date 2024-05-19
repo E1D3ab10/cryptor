@@ -1,5 +1,8 @@
 import os
+
 from src.const_int import ConstInt
+
+
 class AbstractEncrypter(object):
 
     def __init__(self, filename: str):
@@ -16,4 +19,3 @@ class AbstractEncrypter(object):
     def check_filename(filename: str, fmt: str):
         if filename.rsplit('.', 1)[-1] != fmt:
             raise ValueError("filename is not correct")
-
